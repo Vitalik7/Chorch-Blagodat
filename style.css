@@ -1,0 +1,626 @@
+body{
+    margin: 0;
+}
+.header{
+
+    height: 900px; /* Высота блока */
+    width: 100%; /* Ширина блока */
+    background: url(images/chorch.jpg) ;
+
+}
+
+
+
+
+
+
+
+#blogs_1 ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    background:#8B3626; /*добавляем фон всему меню*/
+    height: 50px; /*задаем высоту*/
+    opacity: 0.8;
+    color: white;
+
+}
+#blogs_1 h4{
+    padding: 0% 3%;
+    margin: 1.2% 0%;
+    position: absolute;
+
+}
+
+#blogs_1 a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#8B3626;/*добавляем фон к пункту меню*/
+    color: white; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #8B3626; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+
+}
+#blogs_1 a:hover {
+    background:#FF6347;/*добавляем эффект при наведении*/
+
+}
+#blogs_1 li {
+    float: right; /*Размещаем список горизонтально для реализации меню*/
+}
+#blogs_1 button {
+    margin: 8% -3%;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .1em 1em;
+    outline: none;
+    border-style: solid none;
+    border-color: #8B3626 #000 #8B3626  ;
+    border-radius: 15px;
+    background: linear-gradient(#8B3626, #8B3626) #8B3626;
+}
+#blogs_1 button:active { background: linear-gradient(#FF6347, #FF6347) #FF6347; }
+
+#blogs_2 ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    background:#9FB6CD; /*добавляем фон всему меню*/
+    height: 35px; /*задаем высоту*/
+    opacity: 0.8;
+}
+
+#blogs_2 a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    background:#9FB6CD;/*добавляем фон к пункту меню*/
+    color: black; /*меняем цвет ссылок*/
+    padding:0px 15px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:35px; /*ровняем меню по вертикали*/
+    display: block;
+    border-right: 1px solid #9FB6CD; /*добавляем бордюр справа*/
+    -moz-transition: all 0.3s 0.01s ease; /*делаем плавный переход*/
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+
+}
+
+#blogs_2 li {
+    padding: 0% 1%;
+    height: 35px;
+    float: right; /*Размещаем список горизонтально для реализации меню*/
+}
+#blogs_2 a{
+
+    height: 35px;
+}
+#blogs_2 a:active { background: #FF6347 }
+
+#blogs_2 button{
+    margin: 2.5% 0%;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .1em 2em;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-color: #9FB6CD #000 #8B3626;
+    border-radius: 15px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+    transition: 0.2s;
+}
+#blogs_2 button:hover { background: linear-gradient(#FF6347, #FF6347) #FF4500; }
+#blogs_2 button:active { background: linear-gradient(#8B3626, #8B3626) #8B3626; }
+
+
+#box{
+    padding: 10% 0%;
+}
+
+#name{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+
+}
+#name h1{
+   /* border-bottom: 3px solid white;*/
+
+
+}
+
+#text{
+    margin: 2% 0%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#text span{
+    float: left;
+    width: 10%;
+    font-size: 60px;
+}
+#text span#right{
+    float: right;
+}
+#meeting_schedule{
+    margin: 1% 25%;
+    width: 50%;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-family: Andale Mono;
+    border-style: solid;
+    letter-spacing: 3px;
+    border-width: 3px;
+    background: black;
+    opacity: 0.8;
+}
+#meeting_schedule h1{
+    font-family: Arnoldboecklin;
+}
+#btn button{
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .4em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #9FB6CD #000 #8B3626;
+    border-radius: 25px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+}
+#btn button:hover { background: linear-gradient(#FF6347, #FF6347) #FF4500; }
+#btn button:active { background: linear-gradient(#8B3626, #8B3626) #8B3626; }
+
+#btn{
+    float: right;
+    width: 46%;
+    overflow: auto;
+
+
+}
+#btn button{
+    bottom: 0px;
+    margin: -10% 0% ;
+}
+/* --------------------------------------------------- */
+
+#header_bottom{
+    font-size: 12px;
+}
+
+#header_bottom ul {
+    list-style: none; /*убираем маркеры списка*/
+    margin: 0; /*убираем отступы*/
+    padding-left: 0; /*убираем отступы*/
+    height: 50px; /*задаем высоту*/
+    opacity: 0.8;
+    color: black;
+
+}
+#header_bottom h4{
+    padding: 0% 3%;
+    margin: 1.2% 0%;
+    position: absolute;
+
+}
+#header_bottom h4:active{
+    color: #FF6347;
+}
+
+#header_bottom a {
+    text-decoration: none; /*убираем подчеркивание текста ссылок*/
+    color: black; /*меняем цвет ссылок*/
+    padding:0px 30px; /*добавляем отступ*/
+    font-family: arial; /*меняем шрифт*/
+    line-height:50px; /*ровняем меню по вертикали*/
+    display: block;
+
+}
+#header_bottom a:active {
+    color:#FF6347;
+
+}
+#header_bottom li {
+    float: right; /*Размещаем список горизонтально для реализации меню*/
+}
+#header_bottom button {
+    margin: 15% -3%;
+    position: relative;
+    right: 20px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 0% 10%;
+    outline: none;
+    border-style: solid none;
+    border-radius: 12px;
+}
+#header_bottom button:active {
+    color: white; }
+
+.about_us{
+    text-align: center;
+    padding: 0% 0%;
+    position: relative;
+    top:30px;
+    height: 700px;
+}
+.about_us h1{
+    font-size: 50px;
+
+}
+
+.text_aboutChorch{
+    padding: 4% 0%;
+    font-size: 17px;
+    text-align: center;
+
+}
+/*----------------------*/
+
+.box_3 {
+    width: 100%;
+    overflow: hidden;
+}
+.box {
+    position: relative;
+    left: 9%;
+    width: 26%;
+    margin-right: 20px;
+    float: left;
+}
+
+#box_3{
+    padding: 3% 6%;
+
+}
+#box_3 a{
+    text-decoration: none;
+    color: black;
+
+}
+ #box_3 p{
+    font-size: 25px;
+    text-align: center;
+}
+
+#box_3 img {
+    border: 5px solid #D3D3D3;
+    text-decoration: none;
+
+}
+#box_3 img#img_1 {
+    height: 180px;
+}
+
+#box_3 img:hover{
+    opacity: 0.5;
+}
+#box_3 a:hover{
+
+    color: #FF6347;
+}
+.ask_pastor{
+    padding: 0% 2%;
+    top: 80px;
+    right: 80px;
+    color:#FF6347;
+    position: relative;
+    float: right;
+
+}
+.ask_pastor a{
+    color: #FF6347;
+}
+.ask_pastor button{
+    display: inline-block;
+    text-decoration: none;
+    outline: none;
+    padding: .7em 2em;
+    background-color: white;
+    border-style: solid;
+    border-color: #FF6347  ;
+    border-radius: 20px;
+}
+.ask_pastor button:active{
+    background: #8B3626;
+    color: white;
+    border-color: #8B3626;
+
+}
+
+.broadcasting{
+    text-align: center;
+    background: #F5F5F5;
+    padding: 4% 0%;
+    height: 780px;
+
+}
+.broadcasting h1{
+    font-size: 50px;
+
+}
+.broadcasting p{
+    font-size: 20px;
+    padding: 3% 0%;
+    opacity: 0.5;
+}
+.broadcasting h1:hover{
+    color: red;
+}
+.broadcasting a{
+    text-decoration: none;
+    color: red;
+}
+.broadcasting h4 a{
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #FF6347;
+    position: absolute;
+    top: 2373px;
+    margin: 0% 2%;
+}
+.broadcasting h4 a:hover{
+    color: red;
+}
+.broadcasting h4 a:active{
+    color: black;
+}
+.broadcasting video{
+    width:600px;
+    height:336px;
+    position: relative;
+    right: 170px;
+
+}
+.broadcasting h3{
+    float: right;
+    position: relative;
+    right: 370px;
+    bottom: 25px;
+}
+.broadcasting video#small{
+    width:200px;
+    height:90px;
+}
+.small_video video{
+    float: right;
+    margin: -7% 0%;
+    position: relative;
+    bottom: 210px;
+    right: 436px;
+}
+
+
+/* ------- latest news ----------------- */
+
+.latest_news{
+    background: #FF6347;
+    text-align: center;
+    color: white;
+    margin: -2% 0%;
+}
+.latest_news h3{
+    font-size: 30px;
+    padding: 3% 0%;
+
+}
+.news{
+    height: 200px;
+
+}
+.new1{
+    margin: 0% 1%;
+    padding: 1.2% 0%;
+    float: left;
+    background:#F5F5F5;
+    color: black;
+    width: 26%;
+    height: 150px;
+
+}
+.new1 img{
+    height: 120px;
+    width: 140px;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+.new1 a{
+    color: black ;
+    opacity: 0.5;
+}
+.new1 a:hover{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new1 a:active{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new1 h5{
+    position: relative;
+    left: 40px;
+    top: 23px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .1em 1em;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-radius: 15px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+    transition: 0.2s;
+}
+
+.new2{
+    margin: 0% 1%;
+    padding: 1.2% 0%;
+    float: left;
+    background:#F5F5F5;
+    color: black;
+    width: 26%;
+    height: 150px;
+
+}
+.new2 img{
+    height: 120px;
+    width: 140px;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+.new2 a{
+    color: black ;
+    opacity: 0.5;
+}
+.new2 a:hover{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new2 a:active{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new2 h5{
+    position: relative;
+    left: 40px;
+    top: 23px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .1em 1em;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-radius: 15px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+    transition: 0.2s;
+}
+
+.new3{
+    margin: 0% 1%;
+    padding: 1.2% 0%;
+    float: left;
+    background:#F5F5F5;
+    color: black;
+    width: 26%;
+    height: 150px;
+
+}
+.new3 img{
+    height: 120px;
+    width: 140px;
+    position: relative;
+    left: 10px;
+    float: left;
+}
+.new3 a{
+    color: black ;
+    opacity: 0.5;
+}
+.new3 a:hover{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new3 a:active{
+    color: #FF6347;
+    text-decoration: none;
+}
+.new3 h5{
+    position: relative;
+    left: 40px;
+    top: 23px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .1em 1em;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-radius: 15px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+    transition: 0.2s;
+}
+
+/* ------- end latest news ----------------- */
+
+.contact{
+    text-align: center;
+    top: 75px;
+    position: relative;
+}
+#ask{
+    padding: 0% 3%;
+    float: left;
+    text-align: left;
+}
+#address{
+    float: left;
+    padding: 0% 3%;
+    text-align: left;
+}
+form input{
+    padding: 0% 1%;
+    margin: 5% 2%;
+    width: 22%;
+    height: 40px;
+}
+
+form textarea{
+    width: 49%;
+    padding: 1% 1%;
+    position: relative;
+    height: 150px;
+    resize: none;
+}
+
+.pluso{
+    float: left;
+    position: absolute;
+    top: 120px;
+    right: 300px;
+}
+
+
+.contact button{
+    font-size: 22px;
+    margin: 2.5% 0%;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .3em 2em;
+    outline: none;
+    border-width: 1px 0;
+    border-style: solid none;
+    border-color: #9FB6CD #000 #8B3626;
+    border-radius: 20px;
+    background: linear-gradient(#FF6347, #FF6347) #FF6347;
+    transition: 0.2s;
+}
+.contact button:hover { background: linear-gradient(#FF6347, #FF6347) #FF4500; }
+.contact button:active { background: linear-gradient(#8B3626, #8B3626) #8B3626; }
+.contact img{
+    width: 100%;
+}
+.footer{
+    padding: 1% 6%;
+    background: #FF6347;
+    position: relative;
+    top: 75px;
+    color: white;
+}
