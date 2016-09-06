@@ -392,18 +392,39 @@ body{
     right: 370px;
     bottom: 25px;
 }
-.broadcasting video#small{
+.broadcasting video#small_1{
     width:200px;
     height:90px;
 }
-.small_video video{
+.small_1_video video{
     float: right;
-    margin: -7% 0%;
+    margin: -7.5% 0%;
     position: relative;
     bottom: 210px;
     right: 436px;
 }
-
+.broadcasting video#small_2{
+    width:200px;
+    height:90px;
+}
+.small_2_video video{
+    float: right;
+    margin: 0.5% 0%;
+    position: relative;
+    bottom: 210px;
+    right: 436px;
+}
+.broadcasting video#small_3{
+    width:200px;
+    height:90px;
+}
+.small_3_video video{
+    float: right;
+    margin: 8.5% -15.7%;
+    position: relative;
+    bottom: 210px;
+    right: 436px;
+}
 
 /* ------- latest news ----------------- */
 
@@ -420,6 +441,7 @@ body{
 }
 .news{
     height: 200px;
+    width: 100%;
 
 }
 .new1{
@@ -430,6 +452,9 @@ body{
     color: black;
     width: 26%;
     height: 150px;
+    position: relative;
+    left: 120px;
+
 
 }
 .new1 img{
@@ -475,6 +500,8 @@ body{
     color: black;
     width: 26%;
     height: 150px;
+    position: relative;
+    left: 115px;
 
 }
 .new2 img{
@@ -515,11 +542,14 @@ body{
 .new3{
     margin: 0% 1%;
     padding: 1.2% 0%;
-    float: left;
     background:#F5F5F5;
     color: black;
     width: 26%;
     height: 150px;
+    float: right;
+    position: relative;
+    right: 95px;
+
 
 }
 .new3 img{
@@ -584,9 +614,9 @@ form input{
 form textarea{
     width: 49%;
     padding: 1% 1%;
-    position: relative;
     height: 150px;
     resize: none;
+    float: none;
 }
 
 .pluso{
